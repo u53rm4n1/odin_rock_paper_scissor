@@ -16,7 +16,7 @@ body{
 }
 
 .versus_title{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .versus_title h3{
@@ -25,6 +25,12 @@ body{
     color: rgb(197, 178, 178);
     font-size: 40px;
     margin-left: 620px;
+}
+
+.round{
+    font-family: 'Saira', sans-serif;
+    color: blanchedalmond;
+    text-align: center;
 }
 
 .scoreSection{
@@ -116,6 +122,17 @@ body{
 
 #optionScissor:hover{
     background-color: rgba(27, 121, 8, 0.664);
+}
+
+.winnerDisplay{
+    text-align: center;
+    /* background-color: white; */
+}
+
+#winnerShow{
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .reset{
