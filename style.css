@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(41, 48, 54);
+}
+
+.title_section h1{
+    display: inline;
+    font-family: 'Saira', sans-serif;
+    color: rgb(199, 53, 53);
+    font-size: 60px;
+    margin-left: 500px;
+}
+
+.versus_title{
+    margin-top: 60px;
+}
+
+.versus_title h3{
+    display: inline;
+    font-family: 'Saira', sans-serif;
+    color: rgb(197, 178, 178);
+    font-size: 40px;
+    margin-left: 620px;
+}
+
+.scoreSection{
+    padding: 20px;
+    font-family: 'Saira', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: azure;
+}
+
+.emoji_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+#forPlayer{
+    display: inline-flex;
+    font-size: 80px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 50px;
+    margin-right: 10px;
+}
+
+#versus{
+    display: inline-flex;
+    font-size: 40px;
+    font-family: 'Saira', sans-serif;
+    padding: 10px;
+    margin-right: 10px;
+    padding-top: 80px;
+}
+
+#forComputer{
+    display: inline-flex;
+    font-size: 80px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.optionSelection{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#optionRock{
+    display: inline-flex;
+    border: 2px solid black;
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+    background-color: rgb(41, 48, 54);
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#optionRock:hover{
+    background-color: rgba(27, 121, 8, 0.664);
+}
+
+#optionPaper{
+    display: inline-flex;
+    border: 2px solid black;
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+    background-color: rgb(41, 48, 54);
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#optionPaper:hover{
+    background-color: rgba(27, 121, 8, 0.664);
+}
+
+#optionScissor{
+    display: inline-flex;
+    border: 2px solid black;
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+    background-color: rgb(41, 48, 54);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#optionScissor:hover{
+    background-color: rgba(27, 121, 8, 0.664);
+}
+
+.reset{
+    text-align: center;    
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.reset #resetScore{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: red;
+    border: 2px solid black;
+}

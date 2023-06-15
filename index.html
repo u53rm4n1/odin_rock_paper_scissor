@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper & Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="title_section">
+        <h1>Rock, Paper & Scissor</h1>
+    </section>
+    <section class="versus_title">
+        <h3>YOU VS COMPUTER</h3>
+    </section>
+    <section class="scoreSection">
+        <p><span id="playerS"></span> - <span id="computerS"></span></p>
+    </section>
+    <section class="emoji_section">
+        <p id="forPlayer">❌</p>
+        <p id="versus">VS</p>
+        <p id="forComputer">❌</p>
+    </section>
+    <section class="optionSelection">
+        <button id="optionRock" onclick="playerOptionSelection('✊');">✊</button>
+        <button id="optionPaper" onclick="playerOptionSelection('✋');">✋</button>
+        <button id="optionScissor" onclick="playerOptionSelection('✌');">✌</button>
+    </section>
+    <section class="reset">
+        <button id="resetScore" onclick="window.location.reload();">RESET SCORE</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
